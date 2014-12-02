@@ -1,0 +1,9 @@
+logs/*
+!.gitkeep
+node_modules/
+tmp
+.idea
+.DS_Store
+tweet-coke-app-snapshots
+bower_components/
+*.iml

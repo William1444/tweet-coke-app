@@ -1,0 +1,12 @@
+<div class="container-fluid">
+    <div id="tweet_column">
+        <blockquote ng-repeat="tweet in tweets" class="tweet_text">
+            <p lang="en" xml:lang="en"><span style="font-size: 1.5em" ng-bind-html="tweet.message" ></span>
+                <div><a href="https://twitter.com/{{tweet.user_handle}}">@{{tweet.user_handle}}</a> Followers: {{tweet.followers}}.</div>
+            <div style="font-size: 0.7em">last updated: {{tweet.updated_at | date:'HH:mm  dd/MM/yy'}}</div>
+            </p>
+        </blockquote>
+        <button ng-click="getNewTweets()" id="more_tweets_button" >get more tweets</button>
+    </div>
+</div>
+
