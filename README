@@ -8,8 +8,7 @@ This is an application that fetches tweets from a Coke tweet service and display
 
 ### Node.js and Tools
 
-- Get [Node.js][node-download].
-- Install the tool dependencies (`npm install`).
+- You will need nodejs installed
 
 ## Workings of the application
 
@@ -17,18 +16,11 @@ This is an application that fetches tweets from a Coke tweet service and display
 
 ## downloading source and installing dependencies
 
-The application relies upon various node.js tools, such as Bower, Karma and Protractor.  You can
-install these by running:
-
-```
 #clone git project
 
 git clone https://github.com/William1444/tweet-coke-app.git
 
 cd tweet-coke-app
-
-#
-npm install
 
 ### run the application
 
@@ -38,5 +30,6 @@ navigate to http://localhost:8000/app/index.html
 
 ### run the tests
 
-navigate to http://localhost:8000/test/specrunner.html
+npm start #if not already started
 
+navigate to http://localhost:8000/test/specrunner.html

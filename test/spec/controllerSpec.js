@@ -109,7 +109,7 @@ describe("Tweet Coke Controllers Spec", function() {
             expect(result.$$unwrapTrustedValue().toString()).toEqual("another message about <span style=\"color:#ff0000\">coke</span> <span style=\"color:#ff0000\">coke</span>");
         });
 
-        it('should deduplicated tweets with the same id', function() {
+        it('should deduplicate tweets with the same id', function() {
             var mockTweets=[mockTweet1, mockTweet2, mockTweet2];
             createControllerWithMockedTweetServiceThatReturns(mockTweets);
             expect($scope.tweets.filter(String).length).toEqual(2);
