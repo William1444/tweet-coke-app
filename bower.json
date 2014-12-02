@@ -13,7 +13,6 @@
     "angular-route": "1.3.x",
     "angular-resource": "1.3.x",
     "angular-sanitize": "1.3.x",
-    "angular-dialog-service": "1.3.x",
-    "angular-bootstrap": "0.12.x"
+    "jasmine": "1.3.1"
   }
 }
